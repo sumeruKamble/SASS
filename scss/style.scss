@@ -1,0 +1,27 @@
+$primary-color:blue;
+$secondary-color:#a1bf;
+$text-color:#333;
+
+
+body{
+      height: 100vh;
+      display:flex;
+      align-items: center;
+      justify-content: center;
+}
+.card{
+
+   width: 300px;
+   
+
+    
+    &-header{
+        background-color: $primary-color;
+        border-radius: 20px;
+        padding: 55px;
+    }
+
+    &-content{
+        color: $text-color;
+    }
+}
